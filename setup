@@ -1,0 +1,9 @@
+source activate MyDjangoEnv
+export PATH="/Users/RhickMercado1/opt/anaconda3/bin:/usr/local/sbin:/Users/RhickMercado1/.npm-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/RhickMercado1/opt/anaconda3/envs/MyDjangoEnv/bin:/Users/RhickMercado1/opt/anaconda3/condabin:/usr/local/sbin:/Users/RhickMercado1/.npm-global/bin:/usr/local/mysql/bin:/usr/local/mysql/bin"
+conda install django
+cd /Users/RhickMercado1/Documents/Programming/Dyango/Django_Lecture/first_project
+# pip install bcrypt
+# pip install django[argon2]
+# pip install pillow
+# pip install pillow --global-option="build_ext" --global-option="--disable-jpeg"
+# sudo lsof -t -i tcp:8000 | xargs kill -9

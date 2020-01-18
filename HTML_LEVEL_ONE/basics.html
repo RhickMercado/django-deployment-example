@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is the Title!</title>
+  </head>
+  <body>
+
+    <h1>Course Sign Up Page</h1>
+
+    <p>Please Note:First Name, Last Name, Password, and Email are required</p>
+    <form method="get" action="thankyou.html">
+
+      <label for="fname">First Name:</label>
+      <input id ="fname" type="text" name="fname" placeholder="First Name" required value=""/>
+      <label for="lname">Last Name:</label>
+      <input id ="lname" type="text" name="lname" placeholder="Last Name" required value=""/>
+      <p/>
+      <label for="email">Email:</label>
+      <input id ="email" type="email" name="fname" placeholder="name@email.com" required value=""/>
+      <label for="pass">Password:</label>
+      <input id ="pass" type="password" name="lname" placeholder="password" required value=""/>
+      <p>Are you ever the age of 18?</p>
+      <label for="age18">Yes:</label>
+      <input id="age18" type="radio" name="age18" value=""/>
+      <label for="notage18">No:</label>
+      <input id="notage18" type="radio" name="age18" value=""/>
+
+     <h2>Do you have a Credit Card or PayPal?</h2>
+     <select name="card">
+       <option value="cc">Credit Card</option>
+       <option value="pp">PayPal</option>
+       <option value="none">none</option>
+     </select>
+     <p/>
+     <input type="submit" name="" value="Sign Up"/>
+
+   </form>
+
+    <h1>Hotel Feedback Form</h1>
+
+    <form method="get">
+      <h3> Are you from inside the US? Or Outside the US?<h3>
+
+      <label for="inusa">Inside:</label>
+      <input id ="inusa" type="radio" name="loc" value="">
+
+      <label for="outusa">Outside:</label>
+      <input id ="outusa" type="radio" name="loc" value="">
+
+     <h2>How was your service?</h2>
+     <select name="stars">
+       <option value="Great">3</option>
+       <option value="Okay">2</option>
+       <option value="Bad">1</option>
+     </select>
+
+     <h2>Any other feedback?</h2>
+
+     <textarea name="mytext" rows="8" cols="80"></textarea>
+     <input type="submit" name="" value="SUBMIT"/>
+
+   </form>
+
+    <form action="https://www.facebook.com" method="get">
+      <h1>Log In</h1>
+      <h2>Please Input your Email and Password</h2>
+      <label for="userinput">Enter Email:</label>
+
+      <input type="email" id="userinput" name="useremail" placeholder="Enter Email Hear" required value="">
+
+      <input type="password" name="password" value"">
+      <input type="color" name="" value="">
+      <input type="text" name="" value="Input Goes here">
+      <input type="submit" name="" value="Submit">
+    </form>
+
+    <h1>Tables</h1>
+
+    <table border="5">
+      <thead>
+        <th>Country Name</th>
+        <th>Country Flag</th>
+        <th>GDP (millions of USD)</th>
+      </thead>
+      <tr>
+        <td>United States</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png"/></td>
+        <td>8,561,930</td>
+      </tr>
+
+      <tr>
+        <td>India</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png"/></td>
+        <td>2,250,990</td>
+      </tr>
+
+      <tr>
+        <td>United Kingdom</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png"/></td>
+        <td>2,649,890</td>
+      </tr>
+
+
+    </table>
+
+    <h1>Attributes</h1>
+    <img src="django.jpg" alt="not found"/>
+    <a href="newpage.html">Click Me</a>
+
+    <h1>Lists</h1>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <ul>
+            <li>I'm nested inside</li>
+            <li>Also nested!</li>
+            <ol>
+                <li><strong>Woah </strong>I'm really nested!</li>
+            </ol>
+        <li>Third Item</li>
+    </ol>
+
+    <h1>Divs and Spans</h1>
+
+    <div class="groupone">
+      <h1>Group One</h1>
+      <p>I want to <span>be together in</span> group one</p>
+    </div>
+
+    <h2>This is a Heading 2</h2>
+    <h3>This is a Heading 3</h3>
+    <h6>This is a Heading 6</h6>
+    <!-- Anything here is a comment -->
+    <p>This a paragraphy</p>
+    <p>This is line two. This is continued
+    I'm still writing in line two</p>
+    <p>This is line three</p>
+
+    <p> <strong>This is text that is bold</strong></p>
+    <p> <em>This is text that is italics</em></p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  </body>
+</html>
